@@ -1,0 +1,26 @@
+.header{
+    background-color: darkgreen;
+}
+.navigation{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+ul, li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+article{
+    display: inline-block;
+    background-color: blue;
+}
+aside{
+    background-color: brown;
+    display: block;
+    float: right;
+
+}
+footer{
+    margin-top: 500px;
+}
