@@ -1,38 +1,68 @@
-// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-// let menuServices = menu[1];
-// console.log(menuServices);
+//let myName = "Marcelo";
+///let birthCity = "Atibaia";
+//let birthYear = 2001;
+//console.log(myName);
+//console.log(birthCity);
+//console.log(birthYear);
 
-// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-// let indexOfPortfolio = menu.indexOf('Portfólio');
-// console.log(indexOfPortfolio);
+//let base = 5;
+//let height = 8;
+//let area = base*height
+//let perimeter = 10+16;
+//console.log(base);
+//console.log(height);
+//console.log(area);
+//console.log(perimeter);
 
-// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-// menu.push('Contato')
-// console.log(menu);
+//let nota = 50;
+//if(nota >= 100){
+//    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas!")
+//}
+//else if(nota < 80 && nota >= 60){
+//    console.log("Você está na nossa lista de espera.")
+//}
+//else{
+//    console.log("Infelizmente, você reprovou.")
+//}
 
-// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
-// for (let indice = 0; indice < groceryList.length; indice +=1) {
-//     console.log(groceryList[indice])
-// }
+//let currentHour = 15;
+//let message;
+//if(currentHour >= 22){
+//    console.log(message = "Não deveríamos comer nada, é hora de dormir")
+//}
+//else if(currentHour >=18 && currentHour < 22){
+//    console.log(message = "Rango da noite, vamos jantar :D")
+//}
+//else if(currentHour >= 14 && currentHour < 18){
+//    console.log(message = "Vamos fazer um bolo pro café da tarde?")
+//}
+//else if(currentHour >= 11 && currentHour < 14){
+//    console.log(message = "Hora do almoço!!")
+//}
+//else{
+//    console.log("Hmm, cheiro de café recém-passado")
+//}
 
-// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-// for (let nomes of names){
-//     console.log(nomes)
-// }
+//let weekDay ="quarta-feira";
+//if(weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feia"){
+//    console.log("Oba, mais um dia de aprendizado na Trybe >:D")
+//}
+//else{
+//    console.log("FINALMENTE, descanso merecideo! UwU!")
+//}
 
-//  let pessoas= ["amanda", "bruna", "carla"];
-//  let pessoaescolhida = pessoas[2]
-// console.log(pessoaescolhida)
+let status = "reprovada"
 
-// let jogos = ['Doom', 'Skyrim', 'Final Fantasy'];
-// jogos[0] = 'Warcraft III';
-// console.log(jogos)
-
-// let n = 9;
-
-// let resultado = 100;
-// for (let index = 0; index <= n; index += 1) {
-//   resultado -= index;
-// };
-// console.log(resultado);
-
+switch(status){
+    case "aprovada":
+        console.log("Parabéns, você está no grupo de pessoas aprovadas!")
+        break;
+    case "lista":
+        console.log("Você está na nossa lista de espera")
+        break;
+    case "reprovada":
+        console.log("Infelizmente você reprovou")
+        break;
+    default:
+        console.log("Informação incorreta")  
+}
