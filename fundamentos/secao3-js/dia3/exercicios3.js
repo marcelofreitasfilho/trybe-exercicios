@@ -33,4 +33,10 @@ function adcCliente(cliente){
 } console.log(adcCliente('Marcelo'));
 console.log(adcCliente(50));
 
+function excCliente(cliente){
+    if(typeof cliente === 'string'){
+        for (let index = 0; index < clientesTrybeBank.length; index =+ 1) {
+            if(cliente === clientesTrybeBank[index]);}
+    } else 'Parametro incorreto'
+}
 
