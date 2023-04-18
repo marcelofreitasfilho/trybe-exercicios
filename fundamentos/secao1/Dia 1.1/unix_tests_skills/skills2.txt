@@ -1,0 +1,8 @@
+bash
+basquete
+correr
+cozinhar
+dormir
+filmes
+Internet
+unix
