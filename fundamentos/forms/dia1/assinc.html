@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="get"> 
+        <!-- enctype="multipart/form-data" para arquivos -->
+        <!-- //imput text// -->
+        <label for="input-text">Digite seus dados</label>
+        <input type="text" placeholder="insira um texto" required class="" 
+        value="" name="texto" id="input-text">
+         <br>
+        <!-- text area  -->
+        <textarea name="" id="" cols="40" rows="5">Texto pre estabelecido</textarea>
+        <button type="submit">Enviar</button>
+        <!-- checkbox -->
+        <input type="checkbox" value="bas" checked name="sport" id="sport1">Basquete
+        <input type="checkbox" value="fut" name="sport" id="sport2">Futebol
+        <input type="checkbox" value="tm" name="sport" id="sport3">Tenis de Mesa
+        <input type="checkbox" value="pet" name="sport" id="sport4">Peteca
+         <br>
+         <br>
+         <!-- type radio -->
+        <label for="jogo1">
+         <input type="radio" id="jogo1" name="games" value="ow">Overwatch 
+        </label>
+        <label for="jogo2">
+         <input type="radio" id="jogo2" name="games" value="sw">Star Wars
+        </label>
+        <input type="radio" id="jogo3" name="games" value="gow">God of War
+        <input type="radio" id="jogo4" name="games" value="bg">Baldurs Gate
+        <br>
+        <br>
+        <!-- dropdown list -->
+        <select name="cidade" id="dropdownList">
+          <option value="mp">Mairipora</option>  
+          <option value="atb">Atibaia</option>
+          <option value="fcr">Franco da Rocha</option>  
+        </select>
+        <br>
+        <br>
+        <!-- input password -->
+        <input type="password" name="" id="">
+        <!-- input file -->
+        <input type="file" name="" id="">
+        <br>
+        <br>
+        <!-- botao para submeter -->
+        <form action="" method="get" enctype="multipart/form-data">
+            <p>USUÁRIO</p>
+            <input type="text" name="usuario" id=""required>
+            <p>SENHA</p>
+            <input type="password" name="senha" id="" required>
+            <br>
+            <button type="submit" class="" name="" id="">Enviar</button>
+        </form>
+
+       
+    </form>
+    
+</body>
+</html>
